@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard - Coin and Note Sorting Machine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Coin and Note Sorting Machine</h1>
+    <h2 id="welcome-user"></h2>
+
+    <div id="input-section">
+      <h3>Enter counts for each denomination</h3>
+      <form id="counts-form">
+        <!-- Inputs inserted by JS -->
+      </form>
+      <button id="submit-counts">Submit Counts</button>
+
+      <div class="message" id="submit-message"></div>
+
+      <div class="list-total hidden" id="totals-section">
+        <h3>Totals</h3>
+        <p><strong>Total Count:</strong> <span id="total-count"></span></p>
+        <p><strong>Total Value:</strong> LKR <span id="total-value"></span></p>
+        <h4>Details:</h4>
+        <ul id="counts-list"></ul>
+      </div>
+    </div>
+
+    <button id="logout-btn" style="margin-top: 30px; background: #dc3545;">Logout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
